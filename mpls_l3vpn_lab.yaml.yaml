@@ -1,0 +1,348 @@
+annotations:
+  - border_color: '#B40C0C'
+    border_style: ''
+    color: '#AA1C88FF'
+    rotation: 0
+    thickness: 1
+    type: ellipse
+    x1: -280.0
+    y1: -80.0
+    x2: 160.0
+    y2: 160.0
+    z_index: 0
+smart_annotations: []
+nodes:
+  - boot_disk_size: null
+    configuration: []
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n0
+    image_definition: null
+    label: CE1
+    node_definition: iol-xe-serial-4eth
+    parameters: {}
+    ram: null
+    tags: []
+    x: -640
+    y: 0
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+      - id: i5
+        label: Serial1/0
+        mac_address: null
+        type: physical
+        slot: 4
+      - id: i6
+        label: Serial1/1
+        mac_address: null
+        type: physical
+        slot: 5
+      - id: i7
+        label: Serial1/2
+        mac_address: null
+        type: physical
+        slot: 6
+      - id: i8
+        label: Serial1/3
+        mac_address: null
+        type: physical
+        slot: 7
+  - boot_disk_size: null
+    configuration: []
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n1
+    image_definition: null
+    label: PE1
+    node_definition: iol-xe-serial-4eth
+    parameters: {}
+    ram: null
+    tags: []
+    x: -440
+    y: -40
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+      - id: i5
+        label: Serial1/0
+        mac_address: null
+        type: physical
+        slot: 4
+      - id: i6
+        label: Serial1/1
+        mac_address: null
+        type: physical
+        slot: 5
+      - id: i7
+        label: Serial1/2
+        mac_address: null
+        type: physical
+        slot: 6
+      - id: i8
+        label: Serial1/3
+        mac_address: null
+        type: physical
+        slot: 7
+  - boot_disk_size: null
+    configuration: []
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n2
+    image_definition: null
+    label: PE2
+    node_definition: iol-xe-serial-4eth
+    parameters: {}
+    ram: null
+    tags: []
+    x: -120
+    y: -40
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+      - id: i5
+        label: Serial1/0
+        mac_address: null
+        type: physical
+        slot: 4
+      - id: i6
+        label: Serial1/1
+        mac_address: null
+        type: physical
+        slot: 5
+      - id: i7
+        label: Serial1/2
+        mac_address: null
+        type: physical
+        slot: 6
+      - id: i8
+        label: Serial1/3
+        mac_address: null
+        type: physical
+        slot: 7
+  - boot_disk_size: null
+    configuration: []
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n3
+    image_definition: null
+    label: CE2
+    node_definition: iol-xe-serial-4eth
+    parameters: {}
+    ram: null
+    tags: []
+    x: 80
+    y: 40
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+      - id: i5
+        label: Serial1/0
+        mac_address: null
+        type: physical
+        slot: 4
+      - id: i6
+        label: Serial1/1
+        mac_address: null
+        type: physical
+        slot: 5
+      - id: i7
+        label: Serial1/2
+        mac_address: null
+        type: physical
+        slot: 6
+      - id: i8
+        label: Serial1/3
+        mac_address: null
+        type: physical
+        slot: 7
+  - boot_disk_size: null
+    configuration: []
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n4
+    image_definition: null
+    label: P
+    node_definition: iol-xe-serial-4eth
+    parameters: {}
+    ram: null
+    tags: []
+    x: -280
+    y: -200
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+      - id: i5
+        label: Serial1/0
+        mac_address: null
+        type: physical
+        slot: 4
+      - id: i6
+        label: Serial1/1
+        mac_address: null
+        type: physical
+        slot: 5
+      - id: i7
+        label: Serial1/2
+        mac_address: null
+        type: physical
+        slot: 6
+      - id: i8
+        label: Serial1/3
+        mac_address: null
+        type: physical
+        slot: 7
+links:
+  - id: l0
+    n1: n0
+    n2: n1
+    i1: i1
+    i2: i2
+    conditioning: {}
+    label: CE1-Ethernet0/0<->PE1-Ethernet0/1
+  - id: l1
+    n1: n1
+    n2: n4
+    i1: i1
+    i2: i1
+    conditioning: {}
+    label: PE1-Ethernet0/0<->P-Ethernet0/0
+  - id: l2
+    n1: n4
+    n2: n2
+    i1: i2
+    i2: i1
+    conditioning: {}
+    label: P-Ethernet0/1<->PE2-Ethernet0/0
+  - id: l3
+    n1: n2
+    n2: n3
+    i1: i2
+    i2: i1
+    conditioning: {}
+    label: PE2-Ethernet0/1<->CE2-Ethernet0/0
+lab:
+  description: ''
+  notes: ''
+  title: Lab at Mon 07:29 AM
+  version: 0.3.0

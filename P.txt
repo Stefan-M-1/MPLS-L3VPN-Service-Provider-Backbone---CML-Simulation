@@ -1,0 +1,146 @@
+Building configuration...
+
+Current configuration : 1475 bytes
+!
+! Last configuration change at 11:18:27 UTC Mon Feb 9 2026
+!
+version 17.16
+service timestamps debug datetime msec
+service timestamps log datetime msec
+!
+hostname P
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!         
+!         
+!         
+!         
+!
+!
+ip cef
+login on-success log
+no ipv6 cef
+!
+!
+!
+!
+!
+!
+!
+!
+mpls label protocol ldp
+!
+!
+!
+!
+!
+memory free low-watermark processor 79983
+!
+!
+spanning-tree mode rapid-pvst
+!
+!
+!
+!
+!
+!
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!         
+interface Loopback0
+ ip address 33.33.33.33 255.255.255.255
+!
+interface Ethernet0/0
+ description LINK_TO_PE1
+ ip address 10.10.10.2 255.255.255.252
+ mpls ip
+!
+interface Ethernet0/1
+ description LINK_TO_PE2
+ ip address 10.10.20.1 255.255.255.252
+ mpls ip
+!
+interface Ethernet0/2
+ no ip address
+ shutdown
+!
+interface Ethernet0/3
+ no ip address
+ shutdown
+!
+interface Serial1/0
+ no ip address
+ shutdown
+ serial restart-delay 0
+!
+interface Serial1/1
+ no ip address
+ shutdown
+ serial restart-delay 0
+!
+interface Serial1/2
+ no ip address
+ shutdown
+ serial restart-delay 0
+!
+interface Serial1/3
+ no ip address
+ shutdown
+ serial restart-delay 0
+!
+router ospf 1
+ network 10.10.10.0 0.0.0.3 area 0
+ network 10.10.20.0 0.0.0.3 area 0
+ network 33.33.33.33 0.0.0.0 area 0
+!         
+ip forward-protocol nd
+ip forward-protocol udp
+!
+!
+ip http server
+ip http secure-server
+ip ssh bulk-mode 131072
+no logging btrace
+!
+!
+!
+control-plane
+!
+!
+!
+line con 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ login
+ transport input ssh
+!
+!         
+!
+!
+end
